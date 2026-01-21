@@ -26,16 +26,6 @@ const {    selectedOption,
     handleMoveOn,
     btns,} = useMain();
 
-
-  // const btn_style =[
-  //     "error",
-  // "info",
-  // "primary",
-  // "secondary",
-  // "success",
-  // "warning",
-  // ];
-
   return (
     <>
       <Container
@@ -66,37 +56,7 @@ const {    selectedOption,
               </Button>
             </>
           ))}
-
-          {/* <Button
-          variant="contained"
-          color=""
-          onClick={() => handleSelect(0)}
-        >
-
-            
-
-
-
-
-
-          {selectID(0)}
-        </Button>
-
-        <Button
-          variant="contained"
-          color="success"
-          onClick={() => handleSelect(1)}
-        >
-          {selectID(1)}
-        </Button>
-
-        <Button
-          variant="contained"
-          color="warning"
-          onClick={() => handleSelect(2)}
-        >
-          {selectID(2)}
-        </Button> */}
+          
         </Box>
         {selectedOption ? (
           <>
