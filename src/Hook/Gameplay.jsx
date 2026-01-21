@@ -30,7 +30,7 @@ export default function useGameplay(selected) {
   let db = [];
   db = setDB(selected);
 
-  const [index, setIndex] = useState(() => random(0, db.length - 1));
+  const [index, setIndex] = useState(() => random(db.length - 1));
 
   const [input, setInput] = useState("");
   const [isCorrect, setIsCorrect] = useState(null);
@@ -59,9 +59,8 @@ export default function useGameplay(selected) {
     }
   };
 
-  // ahora siempre random, sin validaciones
   const handleNext = () => {
-    setIndex(random(0, db.length - 1));
+    setIndex(random(db.length - 1));
   };
 
   let currentWord = "";
