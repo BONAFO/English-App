@@ -1,5 +1,3 @@
-markdown
-
 # English App 🎮
 
 Aplicación en **React** que implementa un juego de vocabulario con palabras y respuestas correctas tomadas de un archivo JSON.  
